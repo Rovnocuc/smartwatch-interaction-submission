@@ -1,0 +1,31 @@
+INFO:root:Testing various classifiers.
+INFO:root:Training data source folder: test_data_balanced_win20
+INFO:root:Training subjects: ['apple_balanced_win20', 'apricot_balanced_win20', 'lemon_balanced_win20', 'pear_balanced_win20', 'orange_balanced_win20', 'blueberry_balanced_win20', 'peach_balanced_win20'].
+INFO:root:Test subjects: ['banana_balanced_win20'].
+INFO:root:Training Nearest Neighbors.
+INFO:root:Time to train Nearest Neighbors: 0:00 s.
+INFO:root:Score of Nearest Neighbors: 0.835.
+INFO:root:Training Linear SVM.
+INFO:root:Time to train Linear SVM: 4:04 s.
+INFO:root:Score of Linear SVM: 0.660.
+INFO:root:Training RBF SVM.
+INFO:root:Time to train RBF SVM: 1:01 s.
+INFO:root:Score of RBF SVM: 0.781.
+INFO:root:Training Gaussian Process.
+INFO:root:Time to train Gaussian Process: 0:04 s.
+INFO:root:Score of Gaussian Process: 0.492.
+INFO:root:Training Decision Tree.
+INFO:root:Time to train Decision Tree: 2:23 s.
+INFO:root:Score of Decision Tree: 0.720.
+INFO:root:Training Random Forest.
+INFO:root:Time to train Random Forest: 1:38 s.
+INFO:root:Score of Random Forest: 0.732.
+INFO:root:Training Neural Net.
+INFO:root:Time to train Neural Net: 0:54 s.
+INFO:root:Score of Neural Net: 0.547.
+INFO:root:Training AdaBoost.
+INFO:root:Time to train AdaBoost: 0:00 s.
+INFO:root:Score of AdaBoost: 0.687.
+INFO:root:Training Naive Bayes.
+INFO:root:Time to train Naive Bayes: 0:00 s.
+INFO:root:Score of Naive Bayes: 0.519.
